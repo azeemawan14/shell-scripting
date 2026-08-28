@@ -1,0 +1,9 @@
+Script started on 2026-07-23 06:47:40-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="118" LINES="37"]
+[?2004h]0;khalid@Khalid-laptop: ~/nit/shell-scripting[01;32mkhalid@Khalid-laptop[00m:[01;34m~/nit/shell-scripting[00m$ date
+[?2004lThu Jul 23 06:47:55 CDT 2026
+[?2004h]0;khalid@Khalid-laptop: ~/nit/shell-scripting[01;32mkhalid@Khalid-laptop[00m:[01;34m~/nit/shell-scripting[00m$ uptime
+[?2004l 06:48:01 up 15:31,  1 user,  load average: 0.00, 0.00, 0.00
+[?2004h]0;khalid@Khalid-laptop: ~/nit/shell-scripting[01;32mkhalid@Khalid-laptop[00m:[01;34m~/nit/shell-scripting[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-23 06:48:16-05:00 [COMMAND_EXIT_CODE="0"]
