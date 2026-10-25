@@ -6,7 +6,7 @@ The package starts with simple real-life examples and progresses to safe local r
 
 ## Quick links
 
-- [Complete study notes](01-study-notes/Bash-Conditionals-From-Scratch-to-Advanced-Study-Notes.md)
+- [Complete study notes](Extra/01-study-notes/Bash-Conditionals-From-Scratch-to-Advanced.md)
 - [Level 01 lab](02-labs/Level-01-Conditionals-Fundamentals-Lab.md)
 - [Level 02 lab](02-labs/Level-02-Practical-Conditionals-Lab.md)
 - [Level 03 lab](02-labs/Level-03-DevOps-Conditionals-Lab.md)

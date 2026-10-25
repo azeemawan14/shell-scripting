@@ -14,7 +14,7 @@ Each homework task provides:
 
 | Homework | Topics | Resources |
 |---|---|---|
-| Task 1 | `for` loops, `while` loops, command-line arguments, package checks, root validation, and error handling | [Overview](task-1/README.md) · [Challenge](task-1/Bash-Scripting-Challenge-Tasks-1.md) · [Solutions](task-1/Bash-Scripting-Challenge-Tasks-1-Solutions.md) · [Download ZIP](task-1.zip) |
+| Task 1 | `for` loops, `while` loops, command-line arguments, package checks, root validation, and error handling | [Overview](Homework_Challenges/task-01/README.md) · [Challenge](Homework_Challenges/task-01/Bash-Scripting-Challenge-Tasks-1.md) · [Solutions](Homework_Challenges/task-01/Solutions-Bash-Scripting-Challenge-Tasks-1.md) · [Download ZIP](Homework_Challenges/task-01/) |
 
 ## Repository Structure
 

@@ -43,7 +43,7 @@ else
     exit 1
 fi
 ```
-[Expalnation of this code](../code-explanations/Bash-cp-Command-Error-Handling-Study-Notes.md)
+[Expalnation of this code] (separate command explanation not included)
 
 ## 3. Main Types of Errors
 

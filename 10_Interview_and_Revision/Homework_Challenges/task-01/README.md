@@ -9,7 +9,7 @@ The exercises are designed for students who have learned Bash fundamentals and n
 | Resource | Purpose |
 |---|---|
 | [Student Challenge Sheet](Bash-Scripting-Challenge-Tasks-1.md) | Tasks, requirements, testing guidance, and bonus challenges |
-| [Complete Solutions](Bash-Scripting-Challenge-Tasks-1-Solutions.md) | Reference scripts, explanations, and verification commands |
+| [Complete Solutions](Solutions-Bash-Scripting-Challenge-Tasks-1.md) | Reference scripts, explanations, and verification commands |
 
 > Try each challenge independently before opening the solution guide.
 

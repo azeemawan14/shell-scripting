@@ -1,106 +1,75 @@
 # Shell Scripting — From Beginner to Automation
 
-A structured, hands-on Bash scripting repository containing lessons, practice labs, assignments, solutions, quizzes, posters, and progressively more advanced automation projects.
+**Practical Bash learning | English & Roman Urdu notes | Labs | Assignments | Solutions | MCQs | Posters | Linux & DevOps automation**
 
-This project begins with true beginner concepts and introduces advanced topics only after the required foundations have been practiced.
+A structured, hands-on Bash scripting repository for learning foundational shell skills and progressing toward real Linux administration and DevOps automation. Materials are organized by topic, with complete lesson packages and supporting lab data kept together.
+
+> **Learning method:** Learn → Type → Run → Make Mistakes → Debug → Verify → Automate
+
+## Start Here
+
+1. Start with [Chapter 01 — Foundations](01_Foundations/).
+2. Continue through the chapters in order, practicing each topic in a Linux environment.
+3. For each lesson, read the study notes, perform the labs, attempt assignments **before** opening solutions, and complete MCQs where available.
+4. Use the [interview and revision section](10_Interview_and_Revision/) to reinforce your knowledge.
+
+The repository includes materials in **English and Roman Urdu**, where available. Not every topic has every type of resource.
+
+## Learning Roadmap & Chapter Navigation
+
+| Chapter | Topics and learning focus | Open |
+|---|---|---|
+| 01 — Foundations | Shell vs. terminal, Bash basics, Linux commands, editors, shebang, permissions, first scripts, aliases | [01_Foundations](01_Foundations/) |
+| 02 — Variables and Input | Variables, quoting, expansion, PATH, `read`, positional arguments, parameters, variable scope | [02_Variables_and_Input](02_Variables_and_Input/) |
+| 03 — Decision Making | Exit codes, operators, tests, `if`/`elif`/`else`, conditionals, deployment validation | [03_Decision_Making](03_Decision_Making/) |
+| 04 — Loops | `for`, `while`, `until`, loop control, repeatable automation | [04_Loops](04_Loops/) |
+| 05 — Functions and Arrays | Reusable functions, parameters, scope, indexed and associative arrays | [05_Functions_and_Arrays](05_Functions_and_Arrays/) |
+| 06 — Files, Text and Pipelines | Standard streams, redirection, `find`, parsing with `grep`, `sed`, `awk`, `cut`, `jq` and more | [06_Files_Text_and_Pipelines](06_Files_Text_and_Pipelines/) |
+| 07 — Logging, Scheduling and Debugging | Error handling, logging, exit status, troubleshooting and script reliability | [07_Logging_Scheduling_and_Debugging](07_Logging_Scheduling_and_Debugging/) |
+| 08 — Linux Administration Automation | Linux users, permissions, sudoers, configuration, system administration utilities | [08_Linux_Administration_Automation](08_Linux_Administration_Automation/) |
+| 09 — DevOps Projects | Applied Bash practice, backups, operations scripts, AWS-related workflows and automation projects | [09_DevOps_Projects](09_DevOps_Projects/) |
+| 10 — Interview and Revision | Practice challenges, homework, quizzes, references and review | [10_Interview_and_Revision](10_Interview_and_Revision/) |
+
+Additional supporting material: [Git, GitHub and other references](99_Reference_and_Archive/).
+
+## Day-by-Day Course Materials
+
+The core teaching sequence includes these lesson areas:
+
+| Day | Lesson |
+|---|---|
+| 01 | [Bash Introduction](01_Foundations/Day_01_Bash_Introduction/) |
+| 02 | [Bash Variables](02_Variables_and_Input/Day_02_Bash_Variables/) |
+| 03 | [Bash Arguments](02_Variables_and_Input/Day_03_Bash_Arguments/) |
+| 04 | [Bash Conditionals](03_Decision_Making/Day_04_Bash_Conditionals/) |
+| 05 | [Bash Loops](04_Loops/Day_05_Bash_Loops/) |
+| 06 | [Bash Functions](05_Functions_and_Arrays/Day_06_Bash_Functions/) |
+| 07 | [Error Handling](07_Logging_Scheduling_and_Debugging/Day_07_Error_Handling/) |
+
+Within each lesson, explore the existing **study notes, student labs, assignments, solutions, lab data, posters and MCQs**, as available. Directory names inside lesson packages reflect the original learning materials.
 
 ## Learning Method
 
-```text
-Learn → Type → Run → Make Mistakes → Debug → Verify → Automate
-```
-
 Each learning day may include:
 
-- Lesson notes
-- Beginner-friendly command practice
-- Hands-on assignment
-- Separate instructor solution
-- Interactive MCQ quiz
-- Visual study poster
-- Verification checklist
+- Lesson notes in English and/or Roman Urdu
+- Beginner-friendly terminal practice and hands-on lab exercises
+- Assignments, student challenges, and separate instructor solutions
+- Interactive MCQs and visual study posters
+- Supporting sample files, test data and verification instructions
 
-## Current Course Progress
+**Beginner rule:** Early scripts should use concepts already taught. Functions, arrays, loops, advanced parsing, regular expressions and strict error handling are introduced progressively rather than required on Day 01.
 
-### Day 1 — Shell and Bash Introduction
+## Practice Environment
 
-Topics:
+Use one of the following approved learning environments:
 
-- What a shell is
-- Bash introduction
-- Terminal versus shell
-- Simple Linux architecture
-- User → Shell → Kernel → Hardware
-- Machine-information commands
-- Basic file and directory commands
-- Vim and Nano introduction
-- Shebang and comments
-- First Bash script
-- Execute permission
-- `bash hello.sh` versus `./hello.sh`
-
-### Day 2 — Output, Variables, and User Creation
-
-Topics:
-
-- Standard output and standard error
-- Successful and failed commands
-- Exit status using `$?`
-- `&&` and `||`
-- Multiline descriptions
-- Simple Bash variables
-- Variable expansion
-- User input with `read`
-- Creating a Linux user with `useradd`
-- Checking users with `id` and `getent passwd`
-- Verifying the real command result before reporting success
-
-## Repository Structure
-
-```text
-shell-scripting/
-├── README.md
-├── Day-01-Shell-Basics/
-│   ├── Assignment/
-│   ├── Solution/
-│   ├── MCQ-Quiz/
-│   └── Posters/
-├── Day-02-Output-Variables-User-Creation/
-│   ├── Assignment/
-│   ├── Solution/
-│   ├── MCQ-Quiz/
-│   └── Posters/
-└── Future-Days/
-```
-
-Empty directories are not stored by Git. Add a `README.md` or `.gitkeep` file when an empty directory must be preserved.
-
-## Beginner Rules
-
-The scripts for each day use only concepts already taught by that point.
-
-For example, the first beginner scripts do not use:
-
-- Functions
-- Arrays
-- Loops
-- Advanced argument parsing
-- Strict mode
-- Regular expressions
-- Complex error-handling frameworks
-
-These concepts will be introduced gradually in later lessons.
-
-## Basic Environment
-
-You can practice using:
-
-- Ubuntu Linux
+- Ubuntu Linux or another compatible Linux distribution
 - WSL Ubuntu on Windows
-- A Linux virtual machine
-- An approved AWS EC2 lab instance
+- A disposable Linux virtual machine
+- An authorized AWS EC2 lab instance
 
-Check the environment:
+Check your environment:
 
 ```bash
 echo "$SHELL"
@@ -113,90 +82,69 @@ pwd
 
 ## Running a Bash Script
 
-Run a readable script through Bash:
+Run an ordinary readable script:
 
 ```bash
 bash hello.sh
 ```
 
-Give the script execute permission and run it directly:
+Or make it executable and run it directly:
 
 ```bash
 chmod u+x hello.sh
 ./hello.sh
 ```
 
-Check its syntax:
+Check syntax without executing the script:
 
 ```bash
 bash -n hello.sh
 ```
 
-No output from `bash -n` normally means no syntax error was found.
+A silent `bash -n` usually means no syntax error was detected; it does **not** prove the script works correctly.
 
 ## Working with Assignments and Solutions
 
-Students should complete the assignment before opening the corresponding solution.
+1. Read the lesson and assignment.
+2. Type commands and scripts yourself.
+3. Test both successful and failing scenarios.
+4. Record errors, diagnose causes and correct them.
+5. Follow lab verification instructions and inspect outputs.
+6. Compare with the provided solution only after your own attempt.
+7. Review relevant MCQs and posters.
 
-Recommended workflow:
+For additional practice, browse [Homework Challenges](10_Interview_and_Revision/Homework_Challenges/) and [Bash Practice Labs](09_DevOps_Projects/Bash_Practice_Labs/).
 
-1. Read the assignment.
-2. Type every command manually.
-3. Create the required scripts.
-4. Test successful and failed cases.
-5. Record errors and corrections.
-6. Run the verification commands.
-7. Compare the work with the solution.
-8. Complete the MCQ quiz.
+## Safety Guidelines
 
-## Safety Notes
-
-- Use WSL, a disposable VM, or another approved Linux lab.
-- Do not test user-management or deletion scripts on production systems.
-- Do not manually edit `/etc/passwd`, `/etc/shadow`, or `/etc/group`.
-- Never store plaintext passwords, tokens, private keys, or cloud credentials in Git.
-- Check a command's result before printing a success message.
-- Read scripts carefully before using `sudo`.
-
-## Planned Learning Roadmap
-
-| Stage | Topics |
-|---|---|
-| Foundation | Shell, Bash, commands, editors, scripts, permissions |
-| Variables and input | Variables, quoting, input, substitution, arguments |
-| Decisions | Exit status, tests, `if`, `elif`, `else`, `case` |
-| Repetition | `for`, `while`, `until`, `break`, `continue` |
-| Reusable scripts | Functions, parameters, local variables, return status |
-| Structured data | Indexed and associative arrays |
-| Linux automation | Files, logs, processes, services, backups, monitoring |
-| Production practices | Validation, logging, traps, debugging, ShellCheck, testing |
-| Capstone | Linux Operations Automation Toolkit |
+- Prefer WSL, disposable VMs or other approved lab systems. **Do not test destructive commands on production servers.**
+- Review all scripts before using `sudo`, changing accounts or permissions, or deleting files.
+- Do not manually edit `/etc/passwd`, `/etc/shadow` or `/etc/group`.
+- Never commit credentials, tokens, passwords, `.pem` private keys or other secrets to Git.
+- Use dummy data for demonstrations and verify command results before reporting success.
+- Lab logs, archives and temporary files may be intentional teaching fixtures; inspect their role before cleaning them up.
 
 ## Git Workflow
 
+Work on a feature branch and review changes before committing:
+
 ```bash
 git status
-git add .
-git commit -m "Add Bash scripting learning materials"
-git push
+git diff --stat
+git add <specific-files-or-directories>
+git diff --cached --stat
+git commit -m "Document Bash learning materials"
 ```
 
-Use small and meaningful commits for each learning day.
+Push only after confirming the staged changes contain no secrets or unintended large files. Avoid blindly staging generated backups, credentials, and local tooling.
 
-## Repository
+## Repository & Author
 
-```text
-https://github.com/kcommit/shell-scripting
-```
+**Repository:** [kcommit/shell-scripting](https://github.com/kcommit/shell-scripting)
+**Author:** Muhammad Khalid Khan
+**GitHub:** [kcommit](https://github.com/kcommit)
 
-## Author
-
-**Muhammad Khalid Khan**  
-GitHub: [kcommit](https://github.com/kcommit)
-
-## Purpose
-
-The purpose of this repository is to build practical Bash scripting skills through consistent terminal practice, carefully sequenced assignments, and real Linux administration examples.
+The pre-restructuring introduction and learning notes are preserved in [Original README Before Restructure](99_Reference_and_Archive/ORIGINAL_README_BEFORE_RESTRUCTURE.md).
 
 ---
 
